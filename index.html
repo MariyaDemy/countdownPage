@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead Advisors</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/stylesheet.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/imgs/favicon-32x32.png">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="construction"> 
+            <picture>
+                <source srcset="./assets/imgs/spot_mid.png" media="(max-width: 768px)" />
+	            <source srcset="./assets/imgs/spot_small.png" media="(max-width: 360px)" />
+                <img class="spot1" src="./assets/imgs/spot_left.png" alt="left spot">
+            </picture>
+            <picture>
+                <source srcset="./assets/imgs/spot_mid2.png" media="(max-width: 768px)" />
+	            <source srcset="./assets/imgs/spot_small2.png" media="(max-width: 360px)" />
+                <img class="spot2" src="./assets/imgs/spot_right.png" alt="right spot">
+            </picture>        
+            <div class="container">
+                <div class="construction__content">
+                    <a href="#" class="logo">
+                        <img class="logo__img" src="./assets/imgs/logo.svg" alt="logo">
+                        <img class="logo__name" src="./assets/imgs/co_name.png" alt="company's name">
+                    </a>
+                    <h1 class="construction__title">under construction</h1>
+                    <p class="construction__desc">We're making lots of improvements and will be back soon</p>
+                        <div class="countdown">
+                            <div class="countdown__nums">00 : 00 : 00 : 00</div>
+                            <div class="countdown__text">
+                                <div class="countdown__block">
+                                    <img class="countdown__img" src="./assets/imgs/line.svg" alt="curve line">
+                                    <p class="countdown__par">Days</p>
+                                    <p class="countdown__par2">DD</p>
+                                </div>            
+                                    <div class="countdown__block">                                
+                                    <img class="countdown__img" src="./assets/imgs/line.svg" alt="curve line">
+                                    <p class="countdown__par">Hours</p>
+                                    <p class="countdown__par2">HH</p>
+                                </div>
+                                    <div class="countdown__block">                                
+                                    <img class="countdown__img" src="./assets/imgs/line.svg" alt="curve line">
+                                    <p class="countdown__par">Minutes</p>
+                                    <p class="countdown__par2">MM</p>
+                                </div>
+                                <div class="countdown__block">                                
+                                    <img class="countdown__img" src="./assets/imgs/line.svg" alt="curve line">
+                                    <p class="countdown__par">Seconds</p>
+                                    <p class="countdown__par2">SS</p>
+                                </div> 
+                            </div>                                                      
+                        </div>
+                    <p class="construction__text">Check our event page when you wait:</p>
+                    <a href="https://leadadvisors.net/services/web-development/" class="construction__link" target="_blank">
+                        <span>Go to the event</span>
+                        <img  class="link__img" src="./assets/imgs/arrow-right.svg" alt="arrow">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <form class="footer__form" action="./">
+                    <input class="footer__email" type="email" placeholder="Enter your Email and get notified">
+                    <button class="footer__btn" type="submit">
+                        <img src="./assets/imgs/arrow-right.svg" alt="arrow">
+                    </button>
+                    <p class="error">Provide a valid email address</p>
+                </form>
+            </div>
+        </div>
+        <div class="popup">
+            <div class="popup__wrapper">
+                <div class="popup__body">
+                    <span class="popup__close"></span>
+                    <h2 class="popup__title">Success!</h2>
+                    <p class="popup__text">You have successfully subscribed to the email newsletter</p>
+                    <button class="popup__btn">Close</button>
+                </div>                
+            </div>            
+        </div>
+    </footer>    
+</body>
+</html>
