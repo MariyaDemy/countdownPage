@@ -23,12 +23,12 @@ a {
 }
 
 .spot1 {
-    max-width: 30vw;
+    max-width: 27vw;
     position: absolute;
 }
 
 .spot2 {
-    max-width: 40vw;
+    max-width: 24vw;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -59,6 +59,8 @@ a {
     color: #162C4E;
     opacity: 0.39;
     margin-bottom: 0.8rem;
+    margin: 0px 10px 0 10px;
+    text-align: center;
 
 }
 
@@ -300,6 +302,9 @@ a {
     .construction__title {
         font-size: 3.6rem;
         margin-bottom: 0.6rem;
+        margin: 0px 0px 0px 0px;
+        padding: 0 10px 0 10px;
+        white-space: nowrap;
     }
 
     .construction__desc {
@@ -408,7 +413,7 @@ a {
 
     .spot2 {
         top: 0px;
-        right: -33px;
+        right: 0px;
         max-width: 200px;
     }
 
@@ -429,6 +434,7 @@ a {
         margin-bottom: 1.6rem;
         text-align: center;
         line-height: 36.88px;
+        white-space: unset;
     }
 
     .construction__desc {
